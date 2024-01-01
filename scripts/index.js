@@ -1,3 +1,12 @@
+
+//Loading Animation
+window.onload = function() {
+    document.getElementById("loading-animation").style.display = "none";
+    document.getElementById("main-content").style.display = "block";
+  };
+
+
+
 (() => {
     const openNav = document.querySelector(".open-menu"),
     closeNav = document.querySelector(".close-menu"),
