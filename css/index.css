@@ -324,6 +324,15 @@ footer {
   background-color: #002D5A;
 }
 
+.footer-items-header {
+  color: #459df8;
+}
+
+.footer-company-profile > p{
+  color: white;
+  font-weight: lighter;
+}
+
 
 
 
@@ -885,6 +894,15 @@ footer {
   .worldMap {
     display: block;
     text-align: center;
+  }
+
+  footer {
+    padding: 5rem 1rem;
+  }
+
+  .footer-company-profile {
+    padding: 2rem;
+    font-size: smaller;
   }
 
 
