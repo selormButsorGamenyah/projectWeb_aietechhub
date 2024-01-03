@@ -333,6 +333,17 @@ footer {
   font-weight: lighter;
 }
 
+.footer-company-services ul li{
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-company-services ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: lighter;
+}
+
 
 
 
@@ -900,10 +911,21 @@ footer {
     padding: 5rem 1rem;
   }
 
-  .footer-company-profile {
-    padding: 2rem;
+  .footer-company-profile, .footer-company-services, .footer-company-address, .footer-company-contact, .footer-company-socialMedia, .footer-company-copyright {
+    padding: 1rem;
     font-size: smaller;
   }
+
+  /*.footer-company-services ul li{
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .footer-company-services ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter;
+  }*/
 
 
 }
