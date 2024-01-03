@@ -333,12 +333,12 @@ footer {
   font-weight: lighter;
 }
 
-.footer-company-services ul li{
+.footer-company-services ul li, .footer-company-siteMap ul li{
   list-style: none;
   text-decoration: none;
 }
 
-.footer-company-services ul li a{
+.footer-company-services ul li a, .footer-company-siteMap ul li a{
   text-decoration: none;
   color: #fff;
   font-weight: lighter;
@@ -911,9 +911,28 @@ footer {
     padding: 5rem 1rem;
   }
 
-  .footer-company-profile, .footer-company-services, .footer-company-address, .footer-company-contact, .footer-company-socialMedia, .footer-company-copyright {
+  .footer-company-profile, .footer-company-services, .footer-company-address, .footer-company-contact, .footer-company-socialMedia, .footer-company-copyright, .footer-company-siteMap {
     padding: 1rem;
     font-size: smaller;
+  }
+
+  .footer-company-address address, .footer-company-contact address {
+    font-style: normal;
+    padding: 1rem;
+  }
+
+  .footer-company-address address p, .footer-company-copyright p {
+    color: white;
+  }
+
+  .footer-company-contact address p a, .footer-company-copyright p a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .socialMedia {
+    display: flex;
+    gap: 1rem;
   }
 
   /*.footer-company-services ul li{
