@@ -916,7 +916,7 @@ footer {
     font-size: smaller;
   }
 
-  .footer-company-address address, .footer-company-contact address, .footer-company-services ul {
+  .footer-company-address address, .footer-company-contact address, .footer-company-services ul, .footer-company-siteMap ul {
     font-style: normal;
     padding: 1rem;
   }
